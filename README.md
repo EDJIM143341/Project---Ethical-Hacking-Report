@@ -22,15 +22,13 @@ _**Vulnerability Summary :**_
 * **Critical :**
  - SQL Injection vulnerability in the login form of Lazada, potentially enabling an attacker to extract sensitive data from the database.
  - Insecure Direct Object References (IDOR) vulnerability in the user profile section of Lazada, potentially allowing an attacker to manipulate references to access unauthorized data.
-  - First item
-- Second item
-- Third item
-  
-* **High :** Cross-Site Scripting (XSS) vulnerability in Lazada, allowing attackers to execute malicious scripts in users’ browsers.
-* **High :** Cross-Site Request Forgery (CSRF) vulnerability in Lazada, potentially enabling an attacker to trick a victim into performing actions they did not intend to.
+ -  Server-Side Request Forgery (SSRF) vulnerability in the file upload functionality of Lazada, potentially allowing an attacker to make requests to internal resources.
 
-* **Critical :**   Server-Side Request Forgery (SSRF) vulnerability in the file upload functionality of Lazada, potentially allowing an attacker to make requests to internal resources.
-* **High :** Unvalidated Redirects and Forwards vulnerability in [Application Name], potentially enabling an attacker to redirect users to malicious websites.
+* **High :**
+* Cross-Site Scripting (XSS) vulnerability in Lazada, allowing attackers to execute malicious scripts in users’ browsers.
+* Cross-Site Request Forgery (CSRF) vulnerability in Lazada, potentially enabling an attacker to trick a victim into performing actions they did not intend to.
+* Unvalidated Redirects and Forwards vulnerability in [Application Name], potentially enabling an attacker to redirect users to malicious websites.
+
 
 
 3.  #### Operating System : ####
