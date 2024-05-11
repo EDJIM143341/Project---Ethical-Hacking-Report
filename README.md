@@ -46,7 +46,7 @@ So, the updated list would be:
 * **High :** Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 
 
-_** Recommendation :**_
+_**Recommendations :**_
 
 3.  #### Operating System : ####
 * **Upgrade Operating Systems :** Consider upgrading to a more recent and supported version of the operating system. Newer versions often come with improved security features.
