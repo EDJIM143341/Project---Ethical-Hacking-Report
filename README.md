@@ -19,10 +19,12 @@ _**Vulnerability Summary :**_
 * **High :**  Misconfigured firewall rules on Lazada’s payment processing server permitting unrestricted access from external IP ranges to sensitive internal services such as SSH and RDP.
 
 2.  #### Web Applications : ####
-* **Critical :** SQL Injection vulnerability in the login form of Lazada, potentially enabling an attacker to extract sensitive data from the database.
+* **Critical :** - SQL Injection vulnerability in the login form of Lazada, potentially enabling an attacker to extract sensitive data from the database.
+        - Insecure Direct Object References (IDOR) vulnerability in the user profile section of Lazada, potentially allowing an attacker to manipulate references to access unauthorized data.
+  
 * **High :** Cross-Site Scripting (XSS) vulnerability in Lazada, allowing attackers to execute malicious scripts in users’ browsers.
 
-* **Critical :**  Insecure Direct Object References (IDOR) vulnerability in the user profile section of Lazada, potentially allowing an attacker to manipulate references to access unauthorized data.
+* **Critical :**  
 * **High :** Cross-Site Request Forgery (CSRF) vulnerability in Lazada, potentially enabling an attacker to trick a victim into performing actions they did not intend to.
 
 * **Critical :**   Server-Side Request Forgery (SSRF) vulnerability in the file upload functionality of [Application Name], potentially allowing an attacker to make requests to internal resources.
