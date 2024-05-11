@@ -15,7 +15,7 @@ remediation.
 _**Vulnerability Summary :**_
 1. #### Network Infrastructure ####
 
-*_**Crital:**
+* _**Crital:**
 
 
 
