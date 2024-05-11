@@ -25,5 +25,19 @@ _**Vulnerability Summary :**_
 * **Critical :**  Insecure Direct Object References (IDOR) vulnerability in the user profile section of Lazada, potentially allowing an attacker to manipulate references to access unauthorized data.
 * **High :** Cross-Site Request Forgery (CSRF) vulnerability in Lazada, potentially enabling an attacker to trick a victim into performing actions they did not intend to.
 
+* **Critical :**   Server-Side Request Forgery (SSRF) vulnerability in the file upload functionality of [Application Name], potentially allowing an attacker to make requests to internal resources.
+* **High :** Unvalidated Redirects and Forwards vulnerability in [Application Name], potentially enabling an attacker to redirect users to malicious websites.
 
 
+3.  #### Operating System : ####
+
+* **Critical :**  Outdated and unpatched operating systems (Windows Server 2012 R2) on Lazada’s payment processing servers, potentially exposing them to known exploits and malware.
+* **High :** Weak password policies on Lazada’s domain user accounts, potentially facilitating brute-force attacks and unauthorized access.
+
+ ##### Operating System Recommendations : #####
+
+ **Outdated and Unpathched Operating System** 
+
+* **Upgrade Operating Systems :** Consider upgrading to a more recent and supported version of the operating system. Newer versions often come with improved security features.
+*  **Apply Patches Regularly :** Regularly apply security patches and updates to the operating system. This can help protect against known exploits and malware.
+*   **Weak Password Policies :** Regularly apply security patches and updates to the operating system. This can help protect against known exploits and malware.
