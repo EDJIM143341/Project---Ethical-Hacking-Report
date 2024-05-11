@@ -45,7 +45,7 @@ _**Vulnerability Summary :**_
 * **Regular Password Changes :** Require users to change their passwords regularly, but avoid too frequent changes as it may lead to weak passwords.
 * **Use Two-Factor Authentication (2FA) :** Consider implementing two-factor authentication for an added layer of security.
 
-3.  ##### Wireless : #####
+3.  #### Wireless : ####
 
  * **Critical :**  Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
 * **High :** Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
