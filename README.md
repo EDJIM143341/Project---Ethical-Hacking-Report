@@ -34,16 +34,6 @@ _**Vulnerability Summary :**_
 * **Critical :**  Outdated and unpatched operating systems (Windows Server 2012 R2) on Lazada’s payment processing servers, potentially exposing them to known exploits and malware.
 * **High :** Weak password policies on Lazada’s domain user accounts, potentially facilitating brute-force attacks and unauthorized access.
 
- ##### Operating System Recommendations : #####
-
- **Outdated and Unpathched Operating System** 
-
-* **Upgrade Operating Systems :** Consider upgrading to a more recent and supported version of the operating system. Newer versions often come with improved security features.
-*  **Apply Patches Regularly :** Regularly apply security patches and updates to the operating system. This can help protect against known exploits and malware.
-* **Weak Password Policies :**
-* **Enforce Strong Password Policies :** Implement and enforce strong password policies. This includes using a mix of uppercase and lowercase letters, numbers, and special characters. Passwords should also be of sufficient length (e.g., 12 characters or more).
-* **Regular Password Changes :** Require users to change their passwords regularly, but avoid too frequent changes as it may lead to weak passwords.
-* **Use Two-Factor Authentication (2FA) :** Consider implementing two-factor authentication for an added layer of security.
 
 3.  #### Wireless : ####
 
@@ -54,3 +44,14 @@ So, the updated list would be:
 * **Critical :**  Weak encryption (WEP) used in Lazada’s guest wireless network, potentially allowing attackers to intercept and decrypt wireless traffic, thereby exposing sensitive data.
 * **Critical :** Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
 * **High :** Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
+
+
+_** Recommendation :**_
+
+3.  #### Operating System : ####
+* **Upgrade Operating Systems :** Consider upgrading to a more recent and supported version of the operating system. Newer versions often come with improved security features.
+*  **Apply Patches Regularly :** Regularly apply security patches and updates to the operating system. This can help protect against known exploits and malware.
+* **Weak Password Policies :**
+* **Enforce Strong Password Policies :** Implement and enforce strong password policies. This includes using a mix of uppercase and lowercase letters, numbers, and special characters. Passwords should also be of sufficient length (e.g., 12 characters or more).
+* **Regular Password Changes :** Require users to change their passwords regularly, but avoid too frequent changes as it may lead to weak passwords.
+* **Use Two-Factor Authentication (2FA) :** Consider implementing two-factor authentication for an added layer of security.
