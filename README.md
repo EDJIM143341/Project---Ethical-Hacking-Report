@@ -13,9 +13,10 @@ This report provides detailed descriptions of these findings, along with actiona
 remediation.
 
 _**Vulnerability Summary :**_
-1. #### Network Infrastructure ####
+1.  #### Network Infrastructure ####
 
-* **Crital:**
+* **Crital :** Remote Code Execution vulnerability (CVE-2024-1234) in the Apache Struts framework (version 2.3.34) running on Lazada’s main server, potentially allowing an attacker to execute arbitrary code remotely.
+* **High :**  Misconfigured firewall rules on Lazada’s payment processing server permitting unrestricted access from external IP ranges to sensitive internal services such as SSH and RDP.
 
 
 
